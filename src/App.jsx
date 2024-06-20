@@ -34,10 +34,18 @@ function App() {
       </Section>
     ),
     (
-      <Section title="Paper">
-        <Link href={paper} target="_blank">Paper (pdf)</Link>
+      <Section title="Resources">
+        <Link href={paper} target="_blank">
+          <Icon src="pdf_icon.svg"></Icon>Paper (pdf)
+        </Link>
         <br/>
-        <Link href={slides} target="_blank">Slides (pdf)</Link>
+        <Link href={slides} target="_blank">
+          <Icon src="pdf_icon.svg"></Icon>Slides (pdf)
+        </Link>
+        <br/>
+        <Link href="https://github.com/jd3main/Falcor/tree/thesis_TwoHistorySVGF" target="_blank">
+          <Icon src="github_icon.svg"></Icon>Source Code (GitHub)
+        </Link>
         <h3>Citation</h3>
         <p>
         Chia-Ming Tu,
@@ -155,8 +163,9 @@ const CenterText = styled.div`
 
 const Link = styled.a`
   display: inline-block;
-  margin: 1em;
+  margin: 0.5em 0em;
   color: #666;
+  font-size: 1.2em;
 
   &:hover {
     color: #7af;
@@ -186,6 +195,12 @@ const AuthorText = styled.p`
   font-style: italic;
   font-size: 1.2em;
   margin: 0;
+`
+
+const Icon = styled.img`
+  width: 1.2em;
+  margin: 0 0.5em;
+  vertical-align: middle;
 `
 
 export default App
