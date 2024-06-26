@@ -9,6 +9,10 @@ import ComparisonToggle from './components/ComparisonToggle'
 import overview from '/overview.svg'
 import paper from '/download/two-hist.pdf'
 import slides from '/download/two-hist-slides.pdf'
+import sunTempleUnweighted from '/images/SunTemple_243_Unweighted.png'
+import sunTempleTwoHist from '/images/SunTemple_243_TwoHist.png'
+import veachAjarUnweighted from '/images/VeachAjar_135_Unweighted.png'
+import veachAjarTwoHist from '/images/VeachAjar_135_TwoHist.png'
 
 const bibtex = `@thesis{Tu2024,
   author  = {Chia-Ming Tu, Shao-Yi Chien, Bing-Yu Chen},
@@ -65,16 +69,16 @@ function App() {
 
         <p>Inside the circle is the foveal area.</p>
         <ComparisonToggle
-          disabledSrc="/images/SunTemple_243_Unweighted.png"
-          enabledSrc="/images/SunTemple_243_TwoHist.png"
+          disabledSrc={sunTempleUnweighted}
+          enabledSrc={sunTempleTwoHist}
           disabledLabel="Original"
           enabledLabel="Two-history"
           style={{ margin:'auto' }}>
         </ComparisonToggle>
 
         {/* <ComparisonSlider
-          leftSrc="/images/SunTemple_243_Unweighted.png"
-          rightSrc="/images/SunTemple_243_TwoHist.png"
+          leftSrc={sunTempleUnweighted}
+          rightSrc={sunTempleTwoHist}
           leftText="Original"
           rightText="Two-history"
           width="100%">
