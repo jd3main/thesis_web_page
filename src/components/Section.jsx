@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 const StyledSection = styled.section`
-  padding: 5em;
+  margin: 0 10%;
+  padding: 2em 0;
   border-top: 1px solid #ddd;
+  max-width: 80em;
 `
 
 const SectionHeader = styled.h2`

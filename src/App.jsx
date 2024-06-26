@@ -81,12 +81,12 @@ function App() {
         </ComparisonSlider> */}
         <br/>
         <CenterText>
-          <iframe style={{width:"640px", height:"360px"}} src="https://www.youtube.com/embed/OZGGhqCfqrs?si=6EYEwysVYuN7kpUp" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          <iframe style={{width:"640px", height:"360px", maxWidth:"100%"}} src="https://www.youtube.com/embed/OZGGhqCfqrs?si=6EYEwysVYuN7kpUp" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </CenterText>
         <h3>Sample-count-weighted vs Two-history</h3>
         <p>We avoid temporal bias difference of sample-count-weighted method</p>
         <CenterText>
-          <iframe style={{width:"640px", height:"360px"}} src="https://www.youtube.com/embed/tLePHK9ir2c?si=-bXfr27RugMfOzdw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          <iframe style={{width:"640px", height:"360px", maxWidth:"100%"}} src="https://www.youtube.com/embed/tLePHK9ir2c?si=-bXfr27RugMfOzdw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </CenterText>
       </Section>
     ),
