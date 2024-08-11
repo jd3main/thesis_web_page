@@ -130,6 +130,7 @@ const CompImage = styled.img`
   draggable: false;
   width: 100%;
   z-index: ${(props) => props.$zIndex || 1};
+  display: block;
 `
 
 const CompTitle = styled.div`
